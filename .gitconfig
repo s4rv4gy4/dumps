@@ -1,0 +1,15 @@
+[init]
+  defaultBranch = main
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+
+[gpg]
+  format = ssh
+
+[commit]
+  gpgsign = true
+
+[includeif "gitdir:~/git/"]
+  path = ~/git/.gitconfig
