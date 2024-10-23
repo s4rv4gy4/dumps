@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-sudo pacman -Syyu && sudo pacman -S xorg xorg-apps xorg-xinit xdotool xclip xsel dbus intel-ucode fuse2 lshw powertop inxi acpi base-devel git zip tar unzip htop gcc make tree dialog reflector iw tcpdump mtr net-tools conntrack-tools ethtool wget rsync curl socat openbsd-netcat axel bind xfce4 xfce4-notifyd xfce4-screensaver xfce4-screenshooter thunar-archive-plugin thunar-media-tags-plugin network-manager-applet xfce4-xkb-plugin xfce4-battery-plugin xfce4-datetime-plugin xfce4-mount-plugin xfce4-netload-plugin xfce4-wavelan-plugin xfce4-pulseaudio-plugin xfce4-weather-plugin xfce4-whiskermenu-plugin ly ttf-dejavu ttf-freefont ttf-liberation ttf-droid terminus-font noto-fonts noto-fonts-emoji ttf-ubuntu-font-family ttf-roboto ttf-roboto-mono sof-firmware pulseaudio pavucontrol alsa-utils alsa-plugins bluez bluez-utils blueman arc-gtk-theme adapta-gtk-theme materia-gtk-theme papirus-icon-theme vulkan-intel dhcpcd networkmanager resolvconf -y
-sudo systemctl enable dhcpcd NetworkManager systemd-resolved ly bluetooth
-
