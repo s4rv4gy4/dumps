@@ -1,0 +1,15 @@
+[init]
+  defaultBranch = main
+
+[core]
+  editor = nvim
+  excludesfile = /home/sarvagya/.gitignore
+
+[gpg]
+  format = ssh
+
+[commit]
+  gpgsign = true
+
+[includeif "gitdir:/home/sarvagya/git/"]
+  path = /home/sarvagya/git/.gitconfig
