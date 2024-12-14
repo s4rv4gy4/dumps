@@ -1,0 +1,11 @@
+[user]
+  username = "s4rv4gy4"
+  name = "Sarvagya Sagar"
+  signingkey = "~/.ssh/shit/sign.pub"
+  email = "186076145+s4rv4gy4@users.noreply.github.com"
+
+[core]
+  sshCommand = "ssh -i ~/.ssh/shit/sign -F /dev/null"
+
+[gpg "ssh"]
+  allowedSignersFile = "~/.ssh/shit/allowed_signers"
