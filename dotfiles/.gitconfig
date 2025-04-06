@@ -1,0 +1,18 @@
+[init]
+  defaultBranch = main
+
+[core]
+  editor = nvim
+
+[gpg]
+  format = ssh
+
+[commit]
+  gpgsign = true
+
+[includeif "gitdir:~/git/work/"]
+  path = ~/git/work/.gitconfig
+
+[includeif "gitdir:~/git/shit/"]
+  path = ~/git/shit/.gitconfig
+
