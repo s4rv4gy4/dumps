@@ -1,3 +1,1 @@
-🚯 dumping yard!<br/>
-👾 tons of blobs,<br/>
-⚠️ and maybe malwares.<br/>
+🚯 dumping yard! tons of blobs, and maybe malwares.
